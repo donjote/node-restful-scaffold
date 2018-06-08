@@ -1,0 +1,36 @@
+{
+  "name": "tate-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production node app/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon app/index.js",
+    "test": "cross-env NODE_ENV=test node app/index.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.2.2",
+    "kcors": "^2.2.1",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-compress": "^3.0.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.3.2",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.4",
+    "passport-local": "^1.0.0",
+    "passport-qq": "^0.1.0",
+    "passport-weibo": "^0.1.2",
+    "passport-weixin": "^0.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.6",
+    "nodemon": "^1.17.5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bunyan": "registry:dt/bunyan#0.0.0+20170311003516",
+    "koa": "registry:npm/koa#2.0.0+20161018080506",
+    "koa-router": "registry:npm/koa-router#7.0.1+20160925140624"
+  }
+}
